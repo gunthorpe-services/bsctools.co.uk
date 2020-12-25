@@ -89,6 +89,17 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+img.logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+img.footer {
+    width: 40%;
+    vertical-align: top;
+    margin: 1em 0em 1em 0em;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -1525,8 +1536,8 @@ input, select, textarea {
 		}
 
 		#header h1 {
+		    display: none;
 			color: #ffffff;
-			display: inline-block;
 			font-size: 1em;
 			line-height: 1;
 			margin: 0;
@@ -2084,3 +2095,7 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+    #footer h1 {
+        display: none;
+    }
