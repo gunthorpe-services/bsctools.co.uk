@@ -1524,7 +1524,7 @@ input, select, textarea {
 		padding: 0 1.5em;
 		position: fixed;
 		user-select: none;
-		width: 100%;
+		width: 80%;
 		z-index: 10002;
 	}
 
